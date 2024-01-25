@@ -1,0 +1,31 @@
+
+.html,
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #141414;
+  font-family: fell, Georgia, Cambria, "Times New Roman", Times, serif;
+  color: white;
+}
+
+main {
+    margin-inline: 6vw;
+}
+
+h1 {
+}
+
+ul {
+    line-height: 3;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+a:hover {
+    color: #999999;
+}
