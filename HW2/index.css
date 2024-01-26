@@ -33,9 +33,22 @@ nav > ul {
   padding: 0;
 }
 
+nav > ul > li {
+  padding-inline: 6px;
+  border-radius: 10px;
+}
+
 a {
   text-decoration: none;
   color: white;
+}
+
+.li-active {
+  background-color: white;
+}
+
+.a-active {
+  color: black;
 }
 
 a:hover {
