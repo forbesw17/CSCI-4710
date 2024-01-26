@@ -43,7 +43,7 @@ a:hover {
 }
 
 .content-container {
-  height: 100vh;
+  min-height: 100vh;
   max-width: 825px;
   margin-inline: 6vw;
 }
@@ -80,5 +80,6 @@ ul {
 }
 
 .image {
-  max-width: 225px;
+  /* max-width: 200px; */
+  max-width: 30%;
 }
