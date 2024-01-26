@@ -35,7 +35,13 @@ nav > ul {
 
 nav > ul > li {
   padding-inline: 6px;
+  border: 1px solid #141414;
   border-radius: 10px;
+}
+
+nav > ul > li:hover {
+  background-color: #141414;
+  border: 1px solid white;
 }
 
 a {
@@ -47,12 +53,12 @@ a {
   background-color: white;
 }
 
-.a-active {
-  color: black;
+.li-active:hover > a {
+  color: white;
 }
 
-a:hover {
-  color: #999999;
+.a-active {
+  color: black;
 }
 
 .content-container {
